@@ -8,7 +8,8 @@ import './styles/index.less'
 import Vant from 'vant'
 //  导入Vant样式
 import 'vant/lib/index.css'
-
+//  加载amfe-flexible
+import 'amfe-flexible'
 Vue.use(Vant)
 
 Vue.config.productionTip = false
