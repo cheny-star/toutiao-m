@@ -50,7 +50,7 @@ export default {
   data () {
     return {
       user: {
-        mobile: '13911111111',
+        mobile: '15210338252',
         code: '246810'
       },
       //  登录信息验证规则

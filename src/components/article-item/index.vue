@@ -1,6 +1,8 @@
 <template>
     <van-cell class="article-item">
+      <!-- 内容标题 -->
       <div slot="title" class="title van-multi-ellipsis--l2">{{article.title}}fefwef</div>
+      <!-- 内容评论与关注区 -->
       <div slot="label">
         <div v-if="article.cover.type === 3" class="cover-wrap">
           <div class="cover-item" v-for="(img, index) in article.cover.images" :key="index">
@@ -17,6 +19,7 @@
           <span>{{article.pubdate | relativeTime}}</span>
         </div>
       </div>
+      <!-- 内容封面 -->
       <van-image
         v-if="article.cover.type === 1"
         class="right-cover"
