@@ -2,7 +2,7 @@
     <div class="home-container">
       <!-- 导航栏 -->
       <van-nav-bar class="page-nav-bar" fixed>
-        <van-button slot="title" class="search-btn" round icon="search" type="info">搜索</van-button>
+        <van-button slot="title" class="search-btn" round icon="search" type="info" to="search">搜索</van-button>
       </van-nav-bar>
 
       <!-- 频道列表 -->
